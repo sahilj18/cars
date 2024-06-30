@@ -1,0 +1,33 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Cars{
+  height: 100%;
+  width: 100%;
+  background-image: url(swift.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #00000066;
+
+  }
+
+}
+h1{
+  text-align: center;
+  color: white;
+
+}
